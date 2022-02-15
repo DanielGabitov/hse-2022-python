@@ -1,0 +1,23 @@
+\documentclass[a4paper,12pt,oneside]{scrbook}
+\usepackage{graphicx}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[ngerman]{babel}
+\usepackage[none]{hyphenat} % suppress hyphenation *globally*
+\sloppy
+\usepackage{tabularx,ragged2e}
+\newcommand{\HY}{\hyphenpenalty=25\exhyphenpenalty=25}
+\newcolumntype{Z}{>{\HY\centering\arraybackslash\hspace{0pt}}X}
+\newcolumntype{M}{>{\HY\RaggedRight\arraybackslash\hspace{0pt}}c}
+\newcolumntype{L}{>{\HY\RaggedRight\arraybackslash\hspace{0pt}}l}
+
+\begin{document}
+\begin{tabularx}{\linewidth}{|Z|Z|Z|}
+\hline1 & 2 & 3\\
+\hline4 & 5 & 6\\
+\hline7 & 8 & 9\\
+\hline
+\end{tabularx}
+\includegraphics[width=\textwidth]{picture.png}
+\end{document}
+    
