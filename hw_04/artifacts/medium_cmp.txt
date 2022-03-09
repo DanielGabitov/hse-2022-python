@@ -1,8 +1,4 @@
-Workers: 1, ThreadPool: 0:00:02.171035, ProcessPool: 0:00:02.885969
-Workers: 2, ThreadPool: 0:00:02.601994, ProcessPool: 0:00:01.889004
-Workers: 3, ThreadPool: 0:00:02.230996, ProcessPool: 0:00:02.099004
-Workers: 4, ThreadPool: 0:00:02.838996, ProcessPool: 0:00:02.189004
-Workers: 5, ThreadPool: 0:00:03.565022, ProcessPool: 0:00:02.018976
-Workers: 6, ThreadPool: 0:00:03.037001, ProcessPool: 0:00:02.675998
-Workers: 7, ThreadPool: 0:00:02.575000, ProcessPool: 0:00:02.280001
-Workers: 8, ThreadPool: 0:00:02.065999, ProcessPool: 0:00:02.582383
+Workers: 1, ThreadPool: 0:00:15.095606, ProcessPool: 0:00:16.165828
+Workers: 2, ThreadPool: 0:00:17.554991, ProcessPool: 0:00:07.066953
+Workers: 3, ThreadPool: 0:00:16.271394, ProcessPool: 0:00:05.934525
+Workers: 4, ThreadPool: 0:00:14.885011, ProcessPool: 0:00:06.630878

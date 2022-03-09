@@ -1,6 +1,6 @@
 No threading/multiprocessing:
-0:00:05.485021
+0:00:05.157999
 Threading:
-0:00:04.317002
+0:00:04.465030
 Multiprocessing:
-0:00:03.470844
+0:00:03.081289

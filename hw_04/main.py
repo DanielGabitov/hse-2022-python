@@ -28,7 +28,7 @@ def integrate(f, a, b, *, n_jobs=1, n_iter=10000):
     return acc
 
 
-def integrate_updated(f, a, b, *, pool, n_jobs=4, n_iter=100_000_00):
+def integrate_updated(f, a, b, *, pool, n_jobs=4, n_iter=50_000_000):
     acc = 0
     step = (b - a) / n_iter
     futures = []
@@ -106,7 +106,7 @@ if __name__ == '__main__':
     ## TIME CMP
 
     with open('artifacts/medium_cmp.txt', 'w') as file:
-        cpu_amount = 4
+        cpu_amount = 2
         for jobs in range(1, cpu_amount * 2 + 1):
             thread_pool_start_time = datetime.now()
             integrate_updated(math.cos, 0, math.pi / 2, n_jobs=jobs, pool=ThreadPoolExecutor)
