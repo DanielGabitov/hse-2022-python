@@ -1,0 +1,6 @@
+No threading/multiprocessing:
+0:00:05.485021
+Threading:
+0:00:04.317002
+Multiprocessing:
+0:00:03.470844
